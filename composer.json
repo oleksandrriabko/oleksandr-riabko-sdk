@@ -1,0 +1,15 @@
+{
+    "name": "lotr/sdk",
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.4",
+        "ramsey/collection": "1.2.2",
+        "php-di/php-di": "^2.1",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lotr\\Sdk\\": "src/"
+        }
+    }
+}
